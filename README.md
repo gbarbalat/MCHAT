@@ -13,12 +13,13 @@ Beware: ci.level=0.975 instead of 0.95 (see methods from the paper)
 3- Produce_nice_plots_Poll_alaGranes_unadj.R  
 4- Copy paste R plots onto odg file, rearrange, save as and import into your paper
 
-## Pollution adjusted  
-1- anal_data_NoStratif_RefTempAsIan_unadj.R  
+## Pollution adjusted   
+1- anal_data_NoStratif_RefTempAsIan.R  
 2- keep obtained crosspred (e.g. pred.PM2.5_postN)  
-3- Produce_nice_plots_Poll_alaGranes_unadj.R  
+3- Produce_nice_plots_Poll_alaGranes.R  
 
-## Pollution E/R
+## Pollution E/R  
+1- anal_data_NoStratif_RefTempAsIan_ERcurve.R  
 
 ## Pollution Sex stratified
 
