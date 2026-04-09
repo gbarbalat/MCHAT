@@ -3,14 +3,20 @@ This the code for the MCHAT study
 
 # Paper ref
 
-# Matching scripts and analyses
+# Matching scripts and analyses  
+Examples are given for the pollution analyses but same principles need to be applied for the temperature analyses.  
+Beware: ci.level=0.975 instead of 0.95 (see methods from the paper)
 
 ## Pollution unadjusted
 1- anal_data_NoStratif_RefTempAsIan_unadj.R  
 2- keep obtained crosspred (e.g. pred.PM2.5_postN)  
-3- 
+3- Produce_nice_plots_Poll_alaGranes_unadj.R  
+4- Copy paste R plots onto odg file, rearrange, save as and import into your paper
 
-## Pollution adjusted
+## Pollution adjusted  
+1- anal_data_NoStratif_RefTempAsIan_unadj.R  
+2- keep obtained crosspred (e.g. pred.PM2.5_postN)  
+3- Produce_nice_plots_Poll_alaGranes_unadj.R  
 
 ## Pollution E/R
 
