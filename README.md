@@ -25,10 +25,17 @@ Beware: ci.level=0.975 instead of 0.95 (see methods from the paper)
 1- anal_data_StratifSex_RefTempAsIan.R, save Male.RData and Female.RData  
 2- Produce_nice_plots_Poll_Sex_alagranes.R
 
-## Pollution adjusted when increasing prenatal exposure window
+## Pollution adjusted when increasing prenatal exposure window  
+1- anal_data_NoStratif_RefTempAsIan.R  with path <- "./37WA/"  
+2- keep obtained crosspred (e.g. pred.PM2.5_postN)  
+3- Produce_nice_plots_Poll_alaGranes.R  
 
-## Pollution Sex-stratified when increasing prenatal exposure window
+## Pollution Sex-stratified when increasing prenatal exposure window  
+1- anal_data_StratifSex_RefTempAsIan.R with path <- "./37WA/"  , save Male.RData and Female.RData  
+2- Produce_nice_plots_Poll_Sex_alagranes.R with path <- "./37WA/"  
 
-## Pollution adjusted MI
+## Pollution adjusted MI  
+1- anal_robust_with_MI_Step3_EstimatePoll.R
 
-## Pollution Sex-stratified MI
+## Pollution Sex-stratified MI  
+1- anal_robust_with_MI_Step5_EstimatePollSex.R
