@@ -35,7 +35,9 @@ Beware: ci.level=0.975 instead of 0.95 (see methods from the paper)
 2- Produce_nice_plots_Poll_Sex_alagranes.R with path <- "./37WA/"  
 
 ## Pollution adjusted MI  
-1- anal_robust_with_MI_Step3_EstimatePoll.R
+1- anal_robust_with_MI_Step1_ImputeOutcome.R  
+2- anal_robust_with_MI_Step3_EstimatePoll.R
 
 ## Pollution Sex-stratified MI  
-1- anal_robust_with_MI_Step5_EstimatePollSex.R
+1- anal_robust_with_MI_Step1_ImputeOutcome.R  
+2- anal_robust_with_MI_Step5_EstimatePollSex.R
